@@ -16,12 +16,13 @@ c = i % 10;
 
 putchar(n + '0');
 putchar(c + '0');
+
 if (i < 99)
 {
 putchar(44);
 putchar(32);
 }
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
