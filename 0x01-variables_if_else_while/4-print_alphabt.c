@@ -16,13 +16,11 @@ if (c != 'e' && c != 'q')
 {
 putchar(c);
 }
+else
+{
+return (0);
+}
 }
 putchar('\n');
 return (0);
-}
-
-
-
-
-
 }
