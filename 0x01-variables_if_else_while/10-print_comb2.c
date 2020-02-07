@@ -8,14 +8,18 @@
 
 int main(void)
 {
-int n;
-for (n = 48; n <= 57; n++)
+int i, n, c;
+for (i = 0; i < 100; i++)
 {
-putchar(n);
-if (n != 57)
+n = i / 10;
+c = i % 10;
+
+putchar(n + '0');
+putchar(c + '0');
+if (i < 99)
 {
-putchar(',');
-putchar(' ');
+putchar(44);
+putchar(32);
 }
 }
 putchar("\n");
