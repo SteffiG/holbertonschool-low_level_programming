@@ -3,17 +3,22 @@
 /**
  * _isalpha - Function that checks for alphabetic character.
  * @c: is a parameter
- * Return: 0
+ * Return: 1 || 0
  */
 
 int _isalpha(int c)
 {
-if (c == 65 && c <= 90)
+int i, n;
+int num = 0;
+for (i = 65; i <= 90; i++)
 {
-return (1);
+if (c == i)
+num = 1;
 }
-else
+for (n = 97; n <= 122; n++)
 {
-return (0);
+if (c == n)
+num = 1;
 }
+return (num);
 }
