@@ -1,13 +1,12 @@
 #include "holberton.h"
 
 /**
- * print_alphabet - Function that prints 10 times the alphabet
+ * print_alphabet_x10 - Function that prints 10 times the alphabet
  * _putchar 
  * Return: 0
  */
 
-void print_alphabet_x10(void);
-
+void print_alphabet_x10(void)
 {
 
 int d;
