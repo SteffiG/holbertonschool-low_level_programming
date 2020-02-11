@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * Description: print_alphabet function that prints the alphabet
+ * print_alphabet - function that prints the alphabet
  * _putchar
  * Return: 0
  */
