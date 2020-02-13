@@ -3,7 +3,6 @@
 /**
  * main - prints the first 98 number
  *
- * Description: fibobnachi numbers starting from one
  * Return: 0
  */
 
@@ -27,7 +26,7 @@ int main(void)
 	l1b = l1 % div;
 	l2a = l2 / div;
 	l2b = l2 % div;
-	for (; c < 98; c++)
+	for (c = 0; c < 98; c++)
 	{
 		l3a = l1a + l2a;
 		l3b = l1b + l2b;
