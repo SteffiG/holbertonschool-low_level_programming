@@ -9,24 +9,6 @@
  */
 
 char *_strchr(char *s, char c)
-/**
-{
-	int i;
-
-	for (i = 0; i < c; i++)
-	{
-		if (s[i] >= c)
-		{
-			return (s + i);
-		}
-		else if (!*s)
-		{
-			return (00);
-		}
-	}
-	return (0);
-}
-*/
 {
 	while (*s != '\0')
 	{
